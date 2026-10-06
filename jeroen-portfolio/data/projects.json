@@ -1,0 +1,94 @@
+[
+  {
+    "id": "quietcare-home",
+    "title": "QuietCare Home",
+    "year": "2026",
+    "status": "MVP / prototype",
+    "category": "IoT + Healthcare",
+    "featured": true,
+    "short": "A privacy-first smart home safety prototype for older adults, combining radar presence detection, wearable events and a caregiver dashboard.",
+    "description": "QuietCare Home is a camera-free safety concept designed to help older adults live at home longer and more confidently. The prototype focuses on detecting possible falls, unusual inactivity and context events, while keeping the processing local-first and simple for caregivers.",
+    "problem": "Existing emergency buttons only work when the resident remembers and is physically able to press them. Camera-based monitoring can feel too intrusive. QuietCare Home explores a middle ground: useful incident context without video monitoring.",
+    "solution": "The concept combines a mmWave presence sensor, a wearable node and optional home sensors into a compact local hub. The dashboard shows clear states such as SAFE, MONITORING and ALERT, with acknowledgement and a demo workflow for testing.",
+    "impact": "The goal is faster response, less privacy impact and better incident context for caregivers, housing organizations and families.",
+    "tech": [
+      "Arduino UNO Q",
+      "ESP32-S3",
+      "mmWave radar",
+      "IMU wearable",
+      "JSON events",
+      "Sensor fusion",
+      "Dashboard UI",
+      "Local-first processing"
+    ],
+    "highlights": [
+      "No camera or video storage",
+      "Sensor fusion between radar and wearable events",
+      "Caregiver workflow with alert, acknowledge and timeline",
+      "Designed for pilot testing in realistic home-care settings"
+    ],
+    "images": [
+      "assets/images/quietcare-home-coverpage.png",
+      "assets/images/quietcare-architecture.png",
+      "assets/images/quietcare-workflow.png",
+      "assets/images/quietcare-privacy.png"
+    ]
+  },
+  {
+    "id": "pit-analysis-data-automation",
+    "title": "Pit Analysis & Data Automation Tool",
+    "subtitle": "Internship project focused on turning technical measurement data into readable insights.",
+    "year": "2025",
+    "type": "Internship Project",
+    "status": "Completed prototype",
+    "category": "Software / Product",
+    "featured": true,
+    "short": "During my software development internship at ASML, I worked on a data automation tool that helps convert technical pit measurement data into clearer, readable output. The project focused on improving the workflow from raw data to useful insights through a custom-built analysis interface.",
+    "cover": "assets/projects/pit-analysis/dashboard.jpg",
+    "images": [
+      "assets/projects/pit-analysis/dashboard.jpg",
+      "assets/projects/pit-analysis/results.jpg"
+    ],
+    "tags": [
+      "C#",
+      "WPF",
+      ".NET",
+      "Data Automation",
+      "Excel Processing",
+      "MATLAB Concepts",
+      "Data Visualization",
+      "UI/UX",
+      "Engineering Software",
+      "Internship Project",
+      "ASML",
+      "Machine Learning"
+    ],
+    "summary": "During my software development internship at ASML, I worked on a data automation tool that helps convert technical pit measurement data into clearer, readable output. The project focused on improving the workflow from raw data to useful insights through a custom-built analysis interface.",
+    "description": "This internship project was focused on developing a Pit Analysis Tool for engineering-related data. The goal was to make complex measurement results easier to process, analyze and understand. Instead of manually reviewing raw data, the tool supports a more automated workflow where imported measurement files can be processed and visualized in a structured way. The project gave me hands-on experience with real-world software development, data handling, UI development and translating technical requirements into a working prototype.",
+    "problem": "Technical measurement data can be difficult and time-consuming to review manually. The challenge was to create a clearer and more efficient workflow that helps users move from raw data to readable results.",
+    "solution": "I developed a working application tool that imports measurement data, processes it into usable output and presents the results in a more understandable interface. The focus was on usability, structure, data automation and creating a solid foundation for future improvements.",
+    "impact": "The tool provides a more efficient way to analyze pit measurement data, saving time and reducing the risk of errors. It also serves as a foundation for future enhancements, such as performance optimization, advanced analysis features and improved user experience.",
+    "highlights": [
+      "Built a working application for pit data analysis",
+      "Created a more readable output from technical measurement data",
+      "Improved the workflow from raw files to structured results",
+      "Worked with real-world engineering data and software requirements",
+      "Gained experience with C#, WPF, .NET, data processing and MATLAB-based concepts",
+      "Explored future improvements such as performance, logging, UI refinement and advanced analysis features"
+    ],
+    "responsibilities": [
+      "Analyzed the problem and translated it into software requirements",
+      "Designed and developed the main prototype interface",
+      "Implemented data processing and result output functionality",
+      "Tested the tool with practical examples",
+      "Presented the project outcome and possible follow-up improvements"
+    ],
+    "discreetNote": "Project details have been simplified for portfolio use. Internal company information, sensitive datasets, specific workflows and confidential technical details are intentionally not included.",
+    "outcome": "The project resulted in a working prototype that demonstrated how measurement data can be processed and presented in a more accessible way. It created a strong base for future optimization, better error handling, improved UI/UX and possible expansion with more advanced analysis features.",
+    "links": {
+      "demo": "",
+      "github": "",
+      "caseStudy": ""
+    }
+  }
+]
